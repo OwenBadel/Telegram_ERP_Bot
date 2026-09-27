@@ -1,0 +1,30 @@
+# Python y caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+
+# Entornos y secretos
+.env
+.env.*
+!.env.example
+
+# Base de datos local
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+!data/.gitkeep
+
+# Reportes generados dinámicamente
+reports/*.pdf
+!reports/.gitkeep
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
